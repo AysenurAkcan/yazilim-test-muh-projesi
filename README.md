@@ -25,16 +25,16 @@ otomatik testlerle kontrol edilmiştir.
 - **Endpoint:** `GET /comments/1`
 - **Beklenen Durum:** 
   - HTTP 200 OK
-  - Yanıt süresi < 2000 ms
+  - Yanıt süresi < 1500 ms
   - `email` alanı: `Eliseo@gardner.biz`
 
 
-### 2. POST Testi – `getCommentById()`
+### 2. POST Testi – `postNewBlogEntry()`
 
-- **Endpoint:** `postNewBlogEntry()`
+- **Endpoint:** `POST /posts`
 - **Beklenen Durum:** 
   - HTTP 201 Created
-  - Yanıt süresi < 2000 ms
+  - Yanıt süresi < 1500 ms
   - `title` alanı: `Test Başlığı`
 
 
